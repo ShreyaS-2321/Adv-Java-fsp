@@ -11,10 +11,6 @@ public class collections6 {
         list.remove(3);
         System.out.println(list);
         System.out.println("\nDynamic iteration");
-        for(Map.Entry<Integer, Integer> ele : list.entrySet()){
-            System.out.print(ele.getKey() + " ");
-        }
-        System.out.println("\nIteration using Iterator object");
         for(int ele : list.keySet()){
             System.out.print(list.get(ele)+" ");
         }
